@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #DEDEDE;">
+  <head>
+    <meta charSet="UTF-8"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<%= htmlWebpackPlugin.options.googleAnalyticsTrackingId %>"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '<%= htmlWebpackPlugin.options.googleAnalyticsTrackingId %>');
+    </script>
+  </head>
+  <body class="<%= htmlWebpackPlugin.options.environment %>">
+    <div id="root"></div>
+  </body>
+</html>

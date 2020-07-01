@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #DEDEDE;">
+  <head>
+    <meta charSet="UTF-8"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="COVID-19 Death Value">
+    <meta property="og:title" content="COVID-19 Death Value">
+    <meta name="keywords" content="vsl, value of a statistical life, covid, covid-19, coronavirus, corona, virus">
+    <meta name="og:image" content="<%= require('./assets/images/meta/governing-simulations-meta.png') %>">
+    <meta property="og:image:width" content="1536">
+    <meta property="og:image:height" content="768">
+    <meta name="twitter:title" content="COVID-19 Death Value">
+    <meta name="twitter:card" content="<%= require('./assets/images/meta/governing-simulations-meta.png') %>">
+    <meta name="twitter:image" content="<%= require('./assets/images/meta/governing-simulations-meta.png') %>">
+    <meta name="twitter:site" content="https://deathvalue.fyi">
+    <meta name="description" content="What one VSL model would value the lives lost due to COVID-19 thus far.">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<%= htmlWebpackPlugin.options.googleAnalyticsTrackingId %>"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '<%= htmlWebpackPlugin.options.googleAnalyticsTrackingId %>');
+    </script>
+  </head>
+  <body class="<%= htmlWebpackPlugin.options.environment %>">
+    <div id="root"></div>
+  </body>
+</html>

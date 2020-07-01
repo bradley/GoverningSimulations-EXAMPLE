@@ -1,0 +1,13 @@
+{
+  "name": "serveVslReport",
+  "description": "",
+  "version": "0.0.1",
+  "authors": [
+    "(bradley <bradley.j.griffith@gmail.com>)"
+  ],
+  "private": true,
+  "dependencies": {
+    "googleapis": "^25.0.0"
+  },
+  "devDependencies": {}
+}

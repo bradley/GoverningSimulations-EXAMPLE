@@ -1,0 +1,43 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    [
+      "babel-plugin-module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@app-front-end/Agent": "./app/webpack/agent",
+          "@app-front-end/Assets": "./app/webpack/assets",
+          "@app-front-end/Components": "./app/webpack/components",
+          "@app-front-end/Config": "./app/webpack/config",
+          "@app-front-end/Elements": "./app/webpack/components/elements",
+          "@app-front-end/Embeds": "./app/webpack/components/embeds",
+          "@app-front-end/Layouts": "./app/webpack/components/layouts",
+          "@app-front-end/Pages": "./app/webpack/components/pages",
+          "@app-front-end/UI": "./app/webpack/components/ui",
+          "@app-front-end/Utils": "./app/webpack/components/utils"
+        }
+      }
+    ],
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-destructuring",
+    "@babel/plugin-proposal-object-rest-spread",
+    "babel-plugin-styled-components",
+    [
+      "file-loader",
+      {
+        "outputPath": "/public/dist/static/loaded_assets",
+        "publicPath": "/static/loaded_assets",
+      }
+    ]
+  ]
+}
