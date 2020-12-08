@@ -13,7 +13,7 @@
     "axios": ">=0.18.1",
     "config": "^1.21.0",
     "dotenv": "^2.0.0",
-    "fast-csv": "^4.1.3",
+    "fast-csv": "^4.3.6",
     "googleapis": "^25.0.0",
     "highland": "^2.13.5",
     "moment": "^2.24.0",
