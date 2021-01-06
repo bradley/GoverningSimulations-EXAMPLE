@@ -19,7 +19,7 @@
     "@types/react": "^16.9.2",
     "@zendeskgarden/container-keyboardfocus": "^0.2.0",
     "@zendeskgarden/container-utilities": "^0.5.2",
-    "axios": ">=0.18.1",
+    "axios": ">=0.21.1",
     "babel-loader": "^8.0.6",
     "babel-node": "0.0.1-security",
     "babel-plugin-file-loader": "^1.1.1",
