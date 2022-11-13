@@ -34,7 +34,7 @@
     "downshift": "^5.2.0",
     "file-loader": "^4.2.0",
     "get-value": "^3.0.1",
-    "loader-utils": "^1.2.3",
+    "loader-utils": "^1.4.1",
     "local-storage": "^2.0.0",
     "lodash": "^4.17.15",
     "method-override": "^3.0.0",
